@@ -1,4 +1,4 @@
-# 6DOF Discrete AABB Distance Detection Algorithmn
+# 6DOF Discrete AABB Distance Detection Algorithm
 This project was designed for RBE595-Haptic & Robot Interaction. Only one file is necessary to run the code- rbe533.py. 
 The purpose of this project was to generate a 3D Axis Aligned Bounding Box (AABB) tree around an arbitrary object. The Standford bunny was used as a proof of concept. Further, a Depth First Search (DPS) determines the closest centroid of the AABB leaflet to the origin point (not shown in OpenGL simulation). This distance value is output to the terminal. 
 The AABB tree and box centroids are only calcualted once initially. After, their centroids are multiplied by a transformation matrix to determine their position. The arrow keys on the keyboard can be used to translate the Standford bunny. Additionally, the bunny can be programmed to stop spinning by commenting out some lines.
