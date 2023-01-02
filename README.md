@@ -5,12 +5,12 @@ The AABB tree and box centroids are only calcualted once initially. After, their
 
 ## Dependencies
 The following dependencies can all be downladed by the following set of commands.
-`python -m pip install pygame`
-`python -m pip install OpenGL`
-`python -m pip install pywavefront`
-`python -m pip install operator`
-`python -m pip install numpy`
-`python -m pip install trelib`
+- `python -m pip install pygame`
+- `python -m pip install OpenGL`
+- `python -m pip install pywavefront`
+- `python -m pip install operator`
+- `python -m pip install numpy`
+- `python -m pip install trelib`
 
 ## Screenshots and Current Limitations
 The depth/level of the tree can be controlled in the code. Currently, this method only supports a tree depth of 7. The resolution, an arbitrary value used to discretly "slide" across a particular axis of the respective box in the AABB tree, must be lowered to increase the depth. Otherwise, the length dimension of the smallest (and deepest) box will be greater than the resolution. A further implementation would be to create a dynamic resolution that changes with box length. 
